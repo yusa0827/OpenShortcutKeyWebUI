@@ -1,0 +1,11 @@
+{
+  "shortcuts": [
+    {
+      "id": "1eff43f4d0344848b18b64ba92d65d0f",
+      "title": "open_chatgpt",
+      "hotkey": "f13",
+      "action_type": "open_url",
+      "value": "https://chat.openai.com"
+    }
+  ]
+}
