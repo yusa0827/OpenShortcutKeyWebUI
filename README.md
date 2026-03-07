@@ -7,7 +7,17 @@ Python 3.11.9
 
 
 # モジュールのインストール
-pip install keyboard streamlit pystray
+以下のどちらかを実行してください。
+
+```bash
+python setting.py
+```
+
+または
+
+```bash
+pip install -r requirements.txt
+```
 
 
 # モジュールの動作確認バージョン
