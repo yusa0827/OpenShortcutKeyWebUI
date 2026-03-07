@@ -6,6 +6,13 @@
       "hotkey": "f13",
       "action_type": "open_url",
       "value": "https://chat.openai.com"
+    },
+    {
+      "id": "27ccf069c8924ce98881d63fc252ea2c",
+      "title": "cmd.exe",
+      "hotkey": "f14",
+      "action_type": "open_cmd",
+      "value": ""
     }
   ]
 }
