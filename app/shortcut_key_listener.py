@@ -10,7 +10,7 @@ import queue
 from pathlib import Path
 
 # ====== 設定 ======
-CONFIG_PATH = Path("shortcut_config.json")
+CONFIG_PATH = Path("config/shortcut_config.json")
 
 POLL_INTERVAL_SEC = 0.5   # 設定ファイル更新チェック間隔
 DEBOUNCE_SEC = 0.30       # 同一hotkeyの連打抑止（秒）

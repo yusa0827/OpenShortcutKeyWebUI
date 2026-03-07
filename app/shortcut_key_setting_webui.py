@@ -12,7 +12,7 @@ from typing import List, Dict, Any
 import streamlit as st
 import keyboard
 
-CONFIG_PATH = "shortcut_config.json"
+CONFIG_PATH = "config/shortcut_config.json"
 
 # ===============================
 # データ構造
