@@ -1,9 +1,20 @@
 # コンセプト
 ショートカットキーで、自分がやりたいアクションを実行できること
 
+
+# 環境
+Python 3.11.9  
+
+
 # モジュールのインストール
-pip install keyboard 
-pip install streamlit
+pip install keyboard streamlit pystray
+
+
+# モジュールの動作確認バージョン
+streamlit                 1.54.0  
+keyboard                  0.13.5  
+pystray                   0.19.5  
+
 
 # 構成
 ```
@@ -43,3 +54,7 @@ chrome のブラウザで ChatGPT が表示されると成功
 ✅ F5で壊れない
 ✅ 市販品と同じ思想（UIと実行分離）
 ✅ 拡張しやすい
+
+# ショートカットキー設定用WebUIの起動
+python -m streamlit run .\shortcut_setting_webui.py
+
